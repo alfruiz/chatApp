@@ -38,5 +38,5 @@ app.use('/', chatApp.Router);
  * Port will be send by param or by default 3000
  */
 app.listen(app.get('port'), () => {
-  console.log(`server is started in PORT: ${app.get('port')}...`);
+  console.log(`server is started! in PORT: ${app.get('port')}...`);
 });
