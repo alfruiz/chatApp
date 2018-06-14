@@ -1,0 +1,41 @@
+{
+    "name": "chatApp",
+    "version": "0.0.1",
+    "description": "project using socket, mongo &amp; express",
+    "main": "index.js",
+    "scripts": {
+        "dev": "./node_modules/nodemon/bin/nodemon.js --inspect --exec babel-node -- ./server.js",
+        "start": "./node_modules/nodemon/bin/nodemon.js --inspect ./server.js"
+    },
+    "engines": {
+        "node": "8.11.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alfruiz/chatApp.git"
+    },
+    "keywords": [],
+    "author": "Alfonso Ruiz <alfonso.ruiz.da@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alfruiz/chatApp/issues"
+    },
+    "homepage": "https://github.com/alfruiz/chatApp#readme",
+    "dependencies": {
+        "dotenv": "^6.0.0",
+        "express": "^4.16.3",
+        "express-handlebars": "^3.0.0",
+        "i": "^0.3.6",
+        "npm": "^6.1.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-latest": "^6.24.1",
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.12.0",
+        "nodemon": "^1.17.5",
+        "pre-commit": "^1.2.2"
+    }
+}
