@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "./node_modules/nodemon/bin/nodemon.js --inspect --exec babel-node -- ./server.js",
         "start": "",
-        "pre-commit": "npx eslint ./server.js"
+        "pre-commit": "npx eslint ."
     },
     "pre-commit": ["pre-commit"],
     "engines": {
