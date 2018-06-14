@@ -2,6 +2,8 @@ import express from 'express';
 
 const Router = express.Router();
 
+var hola = 'null';
+
 /**
  * registerRoutes
  * @param {object} customRoutes an object with 2 levels
